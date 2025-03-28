@@ -1,0 +1,43 @@
+<div class="container__small-card">
+
+  <div class="small-card__text">
+    <div class="small-card__photo">
+      <img
+        [src]="
+          cardThemeId == 1
+            ? '../../../assets/materia1.jpg'
+            : cardThemeId == 2
+            ? '../../../assets/materia2.png'
+            : cardThemeId == 3
+            ? '../../../assets/materia3.jpg'
+            : cardThemeId == 4
+            ? '../../../assets/materia4.jpg'
+            : cardThemeId == 5
+            ? '../../../assets/materia5.jpg'
+            : ''
+        "
+        alt=""
+      />
+    </div>
+
+    <div>
+
+      <div class="small-card__title">
+        <P>{{ cardTitle }}</P>
+      </div>
+
+      <div class="small-card__description">
+        <p>
+          {{ cardText }}
+        </p>
+      </div>
+
+    </div>
+
+
+  </div>
+
+  <div class="container__small-card__separator">
+    <hr />
+  </div>
+</div>

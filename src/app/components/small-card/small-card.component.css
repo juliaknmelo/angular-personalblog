@@ -1,0 +1,49 @@
+.container__small-card{
+  margin-bottom: 15px;
+  width: 900px;
+}
+
+.container__small-card:hover{
+  transform: scale(1.04);
+}
+
+.small-card__text{
+  display: flex;
+  padding: 20px;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.small-card__photo > img {
+  width: 200px;
+  min-width: 200px;
+  margin-right: 20px;
+  border-radius: 5%;
+}
+
+.small-card__title {
+  display: flex;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+.small-card__title > P {
+  font-size: 22px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: left;
+  font-weight: bold;
+}
+
+.small-card__description > P {
+  font-size: 18px;
+  font-weight: lighter;
+  color: grey;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: justify;
+  line-height: 140%;
+
+}
+
+.container__small-card__separator{
+  margin-top: 10px;
+}

@@ -1,0 +1,21 @@
+<main>
+  <app-menu-title></app-menu-title>
+
+  <div class="container__articles">
+    <div class="articles__main"></div>
+    <div class="articles__others">
+      <div class="small__content">
+        @for (post of postagem; track post.id) {
+
+        <app-small-card
+          [cardTitle]="post.title"
+          [cardText]="post.text"
+          [cardThemeId]="post.theme.id"
+          [cardThemeDesc]="post.theme.description"
+        >
+        </app-small-card>
+        }
+      </div>
+    </div>
+  </div>
+</main>
