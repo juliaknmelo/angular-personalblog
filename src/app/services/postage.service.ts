@@ -11,7 +11,7 @@ export class postageService{
 
   constructor(private httpClient: HttpClient){ }
 
-  private url = environment.api;
+  private url = environment.api_url;
 
 
   getPostage(){

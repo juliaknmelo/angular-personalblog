@@ -1,3 +1,3 @@
 export const environment = {
-  api: '',
+  api_url: 'https://personalblog-dio.onrender.com',
 };
